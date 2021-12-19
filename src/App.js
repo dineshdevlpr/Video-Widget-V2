@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import VideoListing from './components/video-listing';
 
 function App() {
+
+  //https://61be57632a1dd4001708a2d5.mockapi.io/sampledata/ventunotech/id
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <VideoListing/>
     </div>
   );
 }

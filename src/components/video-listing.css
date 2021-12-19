@@ -1,0 +1,39 @@
+.carousel .slick-arrow.slick-prev,
+.carousel .slick-arrow.slick-next {
+  background-color: rgb(235, 230, 230);
+  width: 30px;
+  height: 60px;
+  display: flex;
+  align-items: initial;
+  justify-content: center;
+  z-index: 1;
+  box-shadow: 30%;
+  margin: auto;
+}
+.carousel .slick-prev {
+  color: black;
+  left: 0;
+  border-radius: 7px;
+}
+.carousel .slick-next {
+  color: black;
+  right: 0;
+  border-radius: 7px;
+}
+
+.bg-for-card {
+  height: 150px;
+  background: black
+}
+
+.image {
+  margin-top: -80px;
+  height: 150px;
+  width: 150px;
+  border-radius:  50%;
+}
+
+.image :hover {
+  transform: scale(1.1);
+  transition: 500ms;
+}
