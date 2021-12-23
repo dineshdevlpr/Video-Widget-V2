@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./video-listing.css";
 import Card from "./card";
-
 import SampleImg from '../asset/sample-img.jpg'
 
 
@@ -74,8 +73,8 @@ export default function VideoListing () {
           </button>
         </div>
       </div>
-      <div className="container row col-12">
-        <div className="container col-3 pb-1" style={{textAlign: "left"}}>
+      {/* <div className="container row col-12"> */}
+        {/* <div className="container col-3 pb-1" style={{textAlign: "left"}}>
             <div className="avatar-container text-center mx-auto" style={{width:"100%", height : "200px", margin:"35px 50px 35px 35px"}}>
                 <div className="card-up bg-for-card"></div>
                 <div className="avatar mx-auto">
@@ -89,15 +88,16 @@ export default function VideoListing () {
                 <div className="card-body">
                 </div>
             </div>
-        </div>
-        <div className="container col-9" style={{textAlign: "right"}}>
+        </div> */}
+        <div style={{textAlign: "right"}}>
           <Slider {...settings}>
             {data.map((item) => (
               <Card item={item} />
             ))}
           </Slider>
         </div>
-      </div>
+      {/* </div> */}
+      
       
     </div>
   );
