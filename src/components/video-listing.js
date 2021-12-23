@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./video-listing.css";
 import Card from "./card";
-import SampleImg from '../asset/sample-img.jpg'
+//import SampleImg from '../asset/sample-img.jpg'
 
 
 const settings = {
